@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "WebTimeTracker",
+    "version": "1.0",
+    "description": "Track and control the time spent on the Internet.",
+    "permissions": [
+        "storage",
+        "tabs",
+        "alarms",
+        "idle"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+       
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+    
+}
